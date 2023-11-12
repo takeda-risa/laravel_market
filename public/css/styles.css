@@ -1,0 +1,75 @@
+label{
+  margin:10px auto;
+   display:block;
+}
+input{
+  display:block;
+}
+.button{
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin:10px 0;
+}
+a.button{
+  padding:5px;
+}
+.delete_btn{
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin:10px 0;
+}
+.logout{
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+ul {
+  list-style: none;
+}
+a{
+  text-decoration:none; 
+}
+
+dd{
+  margin-bottom: 1rem;
+}
+
+
+.goods_list{
+  margin-bottom: 30px;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  padding: 10px 0;
+}
+
+.header_nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 10px;
+}
+.header_nav li {
+  margin-right: 30px;
+}
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+}
+
+
+/*いいねボタン*/
+.like_button {
+  cursor: pointer;
+}
+.like {
+  display: inline;
+}
