@@ -9,7 +9,8 @@
     <dt>プロフィール画像</dt>
     <dd style="margin-bottom:0.5rem;">                    
       @if($user->image !== '')
-          <img src="{{ \Storage::url($user->image) }}">
+      <img src="{{ asset('storage/' . $user->image) }}">
+          
       @else
           <img src="{{ asset('images/no_image.png') }}">
       @endif
