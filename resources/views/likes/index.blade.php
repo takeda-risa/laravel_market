@@ -13,8 +13,12 @@
                   <div>
                     @if($item->image !== '')
                         <a href="{{ route('items.show', $item) }}">
-                            <img src="{{ \Storage::url($item->image) }}">
+                          <img src="{{ asset('storage/' . $item->image) }}">
                         </a>
+                    @else
+                      <a href="{{ route('items.show', $item) }}">
+                        <img src="{{ asset('images/no_image.png') }}">
+                      </a>
                     @endif
                     {{ $item->description }} 
                   </div>
